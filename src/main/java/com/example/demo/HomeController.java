@@ -18,7 +18,7 @@ import java.util.List;
 @Controller
 public class HomeController {
 
-    @GetMapping(value="/laen0001.github.io")
+    @GetMapping(value="/asegui")
     public String modoInicio1(HttpServletRequest req, Model model) {
         model.addAttribute("frase1", "");
         model.addAttribute("frase2", "");
